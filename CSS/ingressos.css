@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --bg-dark: #101318;
+  --purple-dark: #281B34;
+  --magenta: #B5176A;
+  --magenta-glow: rgba(181, 23, 106, 0.4);
+  --blue-dark: #1F2E4A;
+  --text-light: #F4E8F0;
+  --font-title: 'Syne', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: var(--bg-dark); color: var(--text-light); font-family: var(--font-body); }
+
+header { background: rgba(40, 27, 52, 0.85); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; padding: 18px 6%; border-bottom: 1px solid rgba(181, 23, 106, 0.3); }
+.logo { font-family: var(--font-title); font-size: 2rem; color: #fff; text-decoration: none; font-weight: 800; }
+.logo span { color: var(--magenta); }
+nav ul { display: flex; list-style: none; gap: 25px; }
+nav a { color: var(--text-light); text-decoration: none; font-weight: 600; }
+nav a.active, nav a:hover { color: var(--magenta); }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 60px 20px; }
+.ticket-header { text-align: center; margin-bottom: 50px; }
+.page-title { font-family: var(--font-title); font-size: 3rem; margin-bottom: 10px; }
+
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; align-items: center; }
+
+.ticket-card { background: rgba(40, 27, 52, 0.4); border: 1px solid rgba(255, 255, 255, 0.08); padding: 40px 30px; border-radius: 24px; position: relative; transition: all 0.3s ease; text-align: center; }
+.ticket-card:hover { transform: translateY(-8px); border-color: rgba(181, 23, 106, 0.5); }
+
+.ticket-card.featured { background: linear-gradient(180deg, var(--purple-dark) 0%, rgba(31, 46, 74, 0.6) 100%); border: 2px solid var(--magenta); box-shadow: 0 0 30px var(--magenta-glow); transform: scale(1.05); }
+
+.popular-badge { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--magenta); color: #fff; font-size: 0.75rem; font-weight: 800; padding: 6px 18px; border-radius: 20px; letter-spacing: 1px; }
+
+.ticket-type { font-family: var(--font-title); font-size: 1.4rem; color: var(--magenta); margin-bottom: 15px; }
+.price { font-family: var(--font-title); font-size: 3rem; font-weight: 800; margin-bottom: 10px; }
+.price small { font-size: 1.2rem; }
+.ticket-desc { font-size: 0.9rem; opacity: 0.7; margin-bottom: 30px; min-height: 40px; }
+
+.features { list-style: none; text-align: left; margin-bottom: 35px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 25px; }
+.features li { padding: 8px 0; font-size: 0.9rem; opacity: 0.9; }
+
+.btn-ticket { width: 100%; padding: 15px; border-radius: 12px; border: 1px solid var(--magenta); background: transparent; color: #fff; font-weight: 700; cursor: pointer; transition: all 0.3s ease; }
+.btn-ticket:hover, .main-btn { background: var(--magenta); box-shadow: 0 0 20px var(--magenta-glow); }
+
+footer { text-align: center; padding: 40px; background: var(--purple-dark); border-top: 1px solid rgba(255,255,255,0.05); margin-top: 60px; }
