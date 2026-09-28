@@ -6,45 +6,26 @@ Projeto de site institucional responsivo desenvolvido para um festival fictício
 
 ##  Integrantes do Grupo
 
-* **Giovanna Cruz**
-* **Maria Luísa Rasquinho**
-* **Sofia Cantuario**
+* **Giovanna Cruz Viana**
+* **Maria Luísa Silva Rasquinho**
+* **Sofia Cantuario Carneiro**
 
 ---
 
-##  Paleta de Cores (Pantone)
-
-A identidade visual foi construída com base na paleta Pantone fornecida:
-
-* **Fundo Principal (`#101318`):** Black 6 C
-* **Superfícies / Cards (`#281B34`):** Plum Violet / Rose Onyx
-* **Acentos e Destaques (`#B5176A`):** Magenta Lacquer / Fuchsia Rose
-* **Detalhes / Banners (`#1F2E4A`):** Blue Pansy / Beacon Blue
-* **Tipografia (`#F4E8F0`):** Texto claro e legível
+## Site publicado
+* **Link da Vercel:** https://divaverse.vercel.app/ **
 
 ---
 
-##  Estrutura do Projeto
+##  Antes e Depois
 
-```text
-/
-├── index.html
-├── lineup.html
-├── ingressos.html
-├── informacoes.html
-├── faq.html
-├── style-index.css
-├── style-lineup.css
-├── style-ingressos.css
-├── style-informacoes.css
-├── style-faq.css
-└── img/
-    ├── artista1.jpg (Beyoncé)
-    ├── artista2.jpg (Rihanna)
-    ├── artista3.jpg (Lady Gaga)
-    ├── artista4.jpg (Ariana Grande)
-    ├── artista5.jpg (SZA)
-    ├── artista6.jpg (Doja Cat)
-    ├── artista7.jpg (Lana Del Rey)
-    ├── artista8.jpg (Katy Perry)
-    └── mapa.jpg
+![Antes](c:\Users\Beatriz Cruz\Downloads\imgantes.png.pdf)
+![Depois] ([text](../../../Downloads/imgdepois.png.pdf))
+
+---
+
+## Os 4 prompts que mais fizeram diferença
+1. "Como estruturar o HTML de um site de festival de música com navegação, line-up e seção de ingressos?"
+2. "Como resolver o erro de CSS não carregando (404) ao fazer deploy no Vercel com pastas aninhadas?"
+3. "Como organizar a estrutura de pastas entre HTML, CSS e imagens para projetos hospedados no Vercel?"
+4. "Qual é o caminho correto no `<link rel="stylesheet">` para ligar arquivos CSS quando os HTMLs estão na mesma pasta?" 
