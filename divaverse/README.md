@@ -19,8 +19,8 @@ Projeto de site institucional responsivo desenvolvido para um festival fictício
 
 ##  Antes e Depois
 
-![Antes](c:\Users\Beatriz Cruz\Downloads\imgantes.png.pdf)
-![Depois] ([text](../../../Downloads/imgdepois.png.pdf))
+![Antes] (c:\Users\Beatriz Cruz\Downloads\imgantes.png.pdf)
+![Depois] (c:\Users\Beatriz Cruz\Downloads\imgdepois.png.pdf)
 
 ---
 
